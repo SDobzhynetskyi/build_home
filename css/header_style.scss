@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "MyriadPro-Regular", Arial,  sans-serif;
+}
+
+.brandLogos {
+  text-align: center;
+}
+.brandLogos a {
+  display: inline-block;
+  margin: 70px 10px;
+}
+
+.page {
+  max-width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  margin: 36px 0;
+}
+.logo a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "MyriadPro-Regular", Arial,  sans-serif;
+  text-transform: capitalize;
+}
+
+.logo__icon {
+  width: 36px;
+  height: 36px;
+  background: url(../img/head_logo_icon.png) -1px 0 no-repeat;
+  background-size: cover;
+}
+
+.logo__text span:first-child {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #333;
+  margin-left: 6px;
+}
+.logo__text span:last-child {
+  display: block;
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  line-height: 12px;
+  color: #333;
+  margin-left: 8px;
+  text-transform: uppercase;
+}
+
+.social {
+  float: right;
+  box-sizing: border-box;
+  margin: 36px 0;
+}
+
+.social__icon {
+  display: inline-block;
+  margin: 10px 6px;
+  width: 16px;
+  height: 16px;
+  background: url(../img/sprite_img/head_icons.png) 0 0 no-repeat;
+}
+
+.facebook {
+  background-position: 0 1px;
+}
+.twitter {
+  background-position: -16px 0;
+}
+.rss {
+  background-position: -32px 0;
+}
+.linkedin {
+  background-position: -48px 0;
+}
+.skype {
+  background-position: -64px 1px;
+}
+.facebook:hover {
+  background-position: 0 -16px;
+}
+.twitter:hover {
+  background-position: -16px -16px;
+}
+.rss:hover {
+  background-position: -32px -16px;
+}
+.linkedin:hover {
+  background-position: -48px -16px;
+}
+.skype:hover {
+  background-position: -64px -16px;
+}
+
+menu {
+  clear: both;
+  width: 100%;
+  background-color: #2a2d32;
+}
+
+menu li:first-child {
+  background-color: #248cec;
+}
+
+menu li {
+  display: inline-block;
+  border-right: 1px solid #000;
+}
+
+menu a {
+  display: block;
+  line-height: 55px;
+  padding: 0 30px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+menu a:hover {
+  color: #f4b60d;
+}
+
+menu li:last-child {
+  float: right;
+  width: 240px;
+  height: 40px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  background-color: #35383c;
+  margin: 8px 8px;
+}
+
+.text_search {
+  background-color: #35383c;
+  color: #535659;
+  border: none;
+  outline: none;
+  margin: 12px 14px;
+}
+
+.text_search::-webkit-input-placeholder {
+  color: #535659;
+}
+
+#search {
+  width: 14px;
+  height: 14px;
+  border: none;
+  background: url(../img/search_sing.png) no-repeat;
+}

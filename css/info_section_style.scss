@@ -1,0 +1,83 @@
+.informationSection {
+  margin: 36px 0;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+article {
+  display: inline-block;
+  width: 33%;
+  white-space: normal;
+  font-family: "MyriadPro-Regular", Arial,  sans-serif;
+  position: relative;
+}
+
+.informationSection__number {
+  display: block;
+  font-size: 90px;
+  line-height: 70px;
+  font-weight: 500;
+  color: #000;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.informationSection__item {
+  display: inline-block;
+  margin-left: 120px;
+}
+
+.informationSection__icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: url(../img/sprite_img/article_section_icons.png) no-repeat;
+  overflow: hidden;
+}
+
+.param {
+  background-position: -32px 0;
+}
+
+.truck {
+  background-position: -64px 0;
+}
+
+.informationSection__item h3 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.informationSection__item p {
+  line-height: 24px;
+  height: 72px;
+  overflow: hidden;
+  margin: 15px 0;
+  font-weight: 500;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  opacity: 0.3;
+}
+
+.informationSection__item p::first-letter {
+  text-transform: uppercase;
+}
+
+.readMore {
+  display: block;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.read_more span {
+  display: inline-block;
+  color: blue;
+  font-weight: 900;
+  margin-left: 10px;
+}

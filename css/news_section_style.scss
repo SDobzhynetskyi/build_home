@@ -1,0 +1,134 @@
+.newsBlock {
+  white-space: nowrap;
+  margin: 0 auto;
+  font-family: "MyriadPro-Regular", Arial,  sans-serif;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+.newsBlock__section {
+  display: block;
+  width: 50%;
+  float: left;
+  white-space: normal;
+}
+
+.newsBlock__title {
+  display: block;
+  margin: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #2a2d32;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.newsBlock__news {
+  margin: 36px;
+}
+
+.newsBlock__news figure {
+  display: inline-block;
+  position: relative;
+}
+.newsBlock__news img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 16px;
+}
+.date_month, .date_day {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  z-index: 1;
+  background-color: #248cec;
+  top: 16px;
+  font-size: 15px;
+  text-transform: capitalize;
+  color:#fff;
+  padding: 7px 3px;
+  box-sizing: border-box;
+}
+.date_day {
+  top: 48px;
+  background-color: #f4b60d;
+  color: #2a2b2e;
+  padding-left: 5px;
+}
+.newsBlock__topic {
+  margin-left: 185px;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 32px;
+  color: #2a2d32;
+}
+.newsBlock__topic:hover {
+  cursor: pointer;
+  color: #248cec;
+}
+.newsBlock__comments  {
+  display: block;
+  margin-left: 185px;
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+}
+.newsBlock__comments mark {
+  background-color: #f7f7f7;
+  color: #248cec;
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+}
+
+.newsBlock__body {
+  margin: 24px 0 24px 185px;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #8a8a8a;
+  line-height: 20px;
+  height: 80px;
+  overflow: hidden;
+}
+
+
+
+.newsBlock__section:nth-child(2) {
+  margin-top: 12px;
+}
+
+.newsBlock__head {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 40px;
+  border: 1px solid #e8e8e8;
+  color: #2a2d32;
+  margin: 5px 36px;
+  width: 85%;
+  background-color: #fff;
+  cursor: pointer;
+}
+.newsBlock__head span {
+  font-size: 18px;
+  display: inline-block;
+  border-right: 1px solid #e8e8e8;
+  color: #2a2d32;
+  line-height: 40px;
+  padding: 0 15px;
+  margin-right: 30px;
+}
+
+.newsBlock__slide {
+  background-color: #f7f7f7;
+  font-family: Arial,  sans-serif;
+  font-size: 13px;
+  color: #8a8a8a;
+  margin: 20px 60px;
+  line-height: 20px;
+  height: 140px;
+  overflow: scroll;
+}
+.active {
+  background-color: #f4b60d;
+  color: white;
+}

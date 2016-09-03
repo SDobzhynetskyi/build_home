@@ -1,0 +1,36 @@
+.navi_links {
+  background-color: #2a2d32;
+  font-family: "MyriadPro-Regular", Arial,  sans-serif;
+}
+
+.navi_links__list {
+  display: inline-block;
+  list-style: none;
+  margin: 60px 0 60px 35px;
+  width: 20%;
+}
+
+.navi_links__header {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+.navi_links__item {
+  border-bottom: 1px solid #76787a;
+}
+.navi_links__item:last-child {
+  border: none;
+}
+.navi_links__item a {
+  line-height: 35px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #76787a;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}

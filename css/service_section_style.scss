@@ -1,0 +1,61 @@
+.serviceSection {
+  white-space: nowrap;
+  background-color: #2a2d32;
+  text-align: center;
+}
+
+.serviceSection span {
+  display: block;
+  margin-left: 2.5%;
+  line-height: 100px;
+  font-family: "MyriadPro-Regular", Arial,  sans-serif;
+  font-size: 24px;
+  color: #FFF;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.serviceSection__element {
+  display: inline-block;
+  width: 24%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.serviceSection__element a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.serviceSection__element figure {
+  position: relative;
+  text-align: center;
+}
+
+.serviceSection__element img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.serviceSection__element__hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 0;
+}
+.serviceSection__element:hover figcaption {
+  color: #f4b60d;
+}
+.serviceSection__element__hover:hover {
+  opacity: 0.7;
+}
+
+.serviceSection__element figcaption {
+  line-height: 60px;
+  font-family: "MyriadPro-Regular", Arial,  sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}

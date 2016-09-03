@@ -1,0 +1,61 @@
+#jssor_1 {
+  position: relative;
+  margin: 36px auto;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.slider {
+  cursor: default;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slider__text_1 {
+  position: absolute;
+  top: 235px;
+  left: 30px;
+  opacity: 0.7;
+  z-index: 1;
+  }
+.slider__text_1 span {
+  display: block;
+  font-family: "MyriadPro-Regular", Arial,  sans-serif;
+  font-size: 54px;
+  width: 145px;
+  color: #f4b60d;
+  background-color: #000;
+  opacity: 1;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+.slider__text_2 {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  opacity: 0.7;
+  z-index: 1;
+}
+.slider__text_2 span {
+  display: block;
+  font-family: "MyriadPro-Regular", Arial,  sans-serif;
+  width: 145px;
+  font-size: 54px;
+  color: #ffffff;
+  background-color: #000;
+  opacity: 1;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+.slider__text_2 span:last-child {
+  width: 100%;
+}
