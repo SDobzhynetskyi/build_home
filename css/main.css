@@ -477,7 +477,7 @@ article {
 
 .slider__text_1 {
   position: absolute;
-  top: 235px;
+  top: 238px;
   left: 30px;
   opacity: 0.7;
   z-index: 1; }
@@ -486,7 +486,7 @@ article {
   display: block;
   font-family: "MyriadPro-Regular", Arial,  sans-serif;
   font-size: 54px;
-  width: 145px;
+  width: 160px;
   color: #f4b60d;
   background-color: #000;
   opacity: 1;
@@ -503,7 +503,7 @@ article {
 .slider__text_2 span {
   display: block;
   font-family: "MyriadPro-Regular", Arial,  sans-serif;
-  width: 145px;
+  width: 160px;
   font-size: 54px;
   color: #ffffff;
   background-color: #000;
